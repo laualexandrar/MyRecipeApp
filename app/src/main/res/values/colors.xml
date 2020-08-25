@@ -5,4 +5,6 @@
     <color name="buttonTextColor">#F6F6F4</color>
     <color name="buttonTextColor2">#258039</color>
     <color name="colorPrimary">#258039</color>
+    <color name="toolbarTextColor">#F6F6F4</color>
+    <color name="primaryColor">#BDEBF1</color>
 </resources>
