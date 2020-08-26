@@ -1,12 +1,10 @@
-package com.lroap.myrecipeapp.view.ui
+package com.lroap.myrecipeapp.view.ui.activities
 
 import android.content.Intent
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import androidx.appcompat.app.AppCompatActivity
-import com.lroap.myrecipeapp.MainActivity
 import com.lroap.myrecipeapp.R
 import kotlinx.android.synthetic.main.activity_splashscreen.*
 

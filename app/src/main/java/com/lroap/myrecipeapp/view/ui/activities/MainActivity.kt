@@ -1,8 +1,8 @@
-package com.lroap.myrecipeapp
+package com.lroap.myrecipeapp.view.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toolbar
+import com.lroap.myrecipeapp.R
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 

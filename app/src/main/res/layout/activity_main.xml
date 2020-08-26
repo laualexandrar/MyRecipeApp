@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".view.ui.activities.MainActivity"
     android:background="@color/primaryColor">
 
     <include
@@ -17,7 +17,9 @@
         android:id="@+id/recipeImage"
         android:layout_width="201dp"
         android:layout_height="149dp"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="48dp"
+        android:layout_marginEnd="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
@@ -28,7 +30,9 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="173dp"
         android:layout_height="41dp"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="24dp"
+        android:layout_marginEnd="50dp"
         android:background="@drawable/rounded_corners"
         android:text="Add new recipe"
         android:textAlignment="center"
@@ -76,7 +80,9 @@
         android:id="@+id/selectedRecipeTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="45dp"
+        android:layout_marginEnd="50dp"
         android:text="Muffins"
         android:textAlignment="center"
         android:textSize="30sp"
