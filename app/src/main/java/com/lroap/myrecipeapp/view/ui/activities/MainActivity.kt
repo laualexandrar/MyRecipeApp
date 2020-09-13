@@ -1,5 +1,6 @@
 package com.lroap.myrecipeapp.view.ui.activities
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -11,26 +12,11 @@ class MainActivity : AppCompatActivity() {
 
     val TAG = "LifeCycle"
 
-    val recipesList = arrayListOf("Rice with chicken", "Muffins", "Tacos", "Pasta")
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        chooseRecipeBtn.setOnClickListener {
-            val random = Random()
-            val randomRecipe = random.nextInt(recipesList.count())
-            selectedRecipeTxt.text = recipesList[randomRecipe]
-        }
 
-        addNewRecipeBtn.setOnClickListener {
-            val newRecipe = addRecipesTxt.text.toString()
-
-            recipesList.add(newRecipe)
-            addRecipesTxt.text.clear()
-
-            print(recipesList)
-        }
     }
 
     override fun onStart() {

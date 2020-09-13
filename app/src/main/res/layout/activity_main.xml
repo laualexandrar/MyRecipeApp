@@ -13,83 +13,36 @@
         layout="@layout/toolbar"/>
 
 
-    <ImageView
-        android:id="@+id/recipeImage"
-        android:layout_width="201dp"
-        android:layout_height="149dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="50dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:srcCompat="@drawable/recipelau" />
-
-    <Button
-        android:id="@+id/addNewRecipeBtn"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="173dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="50dp"
-        android:background="@drawable/rounded_corners"
-        android:text="Add new recipe"
-        android:textAlignment="center"
-        android:textColor="@color/buttonTextColor"
-        android:textSize="13dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addRecipesTxt" />
-
     <Button
         android:id="@+id/chooseRecipeBtn"
         android:layout_width="0dp"
         android:layout_height="48dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="50dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/rounded_choose_recipe"
-        android:text="Choose Recipe"
+        android:text="@string/choose_recipe"
         android:textColor="@color/buttonTextColor2"
-        android:textSize="13dp"
+        android:textSize="13sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addNewRecipeBtn"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <EditText
-        android:id="@+id/addRecipesTxt"
-        android:layout_width="200dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="45dp"
-        android:ems="10"
-        android:hint="Add new recipe"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/selectedRecipeTxt" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/selectedRecipeTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="45dp"
         android:layout_marginEnd="50dp"
-        android:text="Muffins"
+        android:text="@string/muffins"
         android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/recipeImage" />
+        tools:layout_editor_absoluteY="298dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

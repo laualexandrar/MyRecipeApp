@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">MyRecipeApp</string>
     <string name="recipe">Button</string>
+    <string name="background_image">background image</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="Desserts">Desserts</string>
+    <string name="next">Next</string>
+    <string name="choose_recipe">Choose Recipe</string>
+    <string name="add_new_recipe">Add new recipe</string>
+    <string name="muffins">Muffins</string>
+    <string name="recipe_image">recipe image</string>
 </resources>
