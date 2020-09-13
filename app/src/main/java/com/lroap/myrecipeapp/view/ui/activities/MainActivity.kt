@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.util.Log
 import com.lroap.myrecipeapp.R
 import kotlinx.android.synthetic.main.activity_main.*
-import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,6 +15,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        continueBtn.setOnClickListener {
+            val addRecipeIntent = Intent(this, AddRecipeMenu::class.java)
+            startActivity(addRecipeIntent)
+        }
 
     }
 
