@@ -7,7 +7,7 @@ import com.lroap.myrecipeapp.R
 import com.lroap.myrecipeapp.view.ui.fragments.RecipeDetailDialogFragment
 import kotlinx.android.synthetic.main.activity_add_recipe_menu.*
 
-class AddRecipeMenu : AppCompatActivity() {
+open class AddRecipeMenu : AppCompatActivity() {
 
     val recipesList = arrayListOf("Rice with chicken", "Muffins", "Tacos", "Pasta")
 

@@ -34,7 +34,7 @@
 
         <Button
             android:id="@+id/myRecipesBtn"
-            android:layout_width="169dp"
+            android:layout_width="175dp"
             android:layout_height="47dp"
             android:background="@drawable/rounded_corners"
             android:text="My Recipes"
