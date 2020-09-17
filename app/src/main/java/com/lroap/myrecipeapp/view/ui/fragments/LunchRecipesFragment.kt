@@ -8,7 +8,7 @@ class LunchRecipesFragment : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_lunch_recipes_fragment)
+        setContentView(R.layout.fragment_lunch_recipes)
     }
 
 }
