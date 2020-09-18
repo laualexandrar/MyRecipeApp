@@ -52,7 +52,7 @@
                             android:layout_gravity="center_horizontal"
                             android:layout_marginTop="40dp"/>
                         <TextView
-                            android:id="@+id/tvDetailRecipeName"
+                            android:id="@+id/tvAddRecipeName"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Recipe Name"
