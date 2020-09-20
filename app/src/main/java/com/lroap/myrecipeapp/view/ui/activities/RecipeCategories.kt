@@ -1,14 +1,11 @@
 package com.lroap.myrecipeapp.view.ui.activities
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import com.lroap.myrecipeapp.R
 import com.lroap.myrecipeapp.view.EXTRA_CAREGORIE
-import com.lroap.myrecipeapp.view.ui.fragments.LunchRecipesFragment
-import com.lroap.myrecipeapp.view.ui.fragments.RecipeDetailDialogFragment
 import kotlinx.android.synthetic.main.activity_recipe_categories.*
 
 open class RecipeCategories : AddRecipeMenu() {
@@ -45,7 +42,7 @@ open class RecipeCategories : AddRecipeMenu() {
 
     fun categoriesNextClicked (view: View){
         if (selectedRecipe != ""){
-            val lunchRecipesFragment = Intent(this, LunchRecipesFragment::class.java)
+            val lunchRecipesFragment = Intent(this, LunchRecipesActivity::class.java)
             lunchRecipesFragment.putExtra(EXTRA_CAREGORIE, selectedRecipe )
             startActivity(lunchRecipesFragment)
         } else {

@@ -9,13 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.ui.fragments.LunchDetailDialogFragment"></activity>
-        <activity android:name=".view.ui.fragments.DessertRecipesFragment" />
-        <activity android:name=".view.ui.fragments.DinnerRecipesFragment" />
-        <activity android:name=".view.ui.fragments.LunchRecipesFragment" />
-        <activity android:name=".view.ui.fragments.AddRecipesInfoFragment" />
+        <activity android:name=".view.ui.activities.LunchDetailDialogActivity"></activity>
+        <activity android:name=".view.ui.activities.DessertRecipesActivity" />
+        <activity android:name=".view.ui.activities.DinnerRecipesActivity" />
+        <activity android:name=".view.ui.activities.LunchRecipesActivity" />
+        <activity android:name=".view.ui.activities.addRecipesInfo" />
         <activity android:name=".view.ui.activities.AddRecipeMenu" />
         <activity android:name=".view.ui.activities.RecipeCategories" />
+        <activity android:name=".view.ui.activities.RecipesDetailActivity"/>
         <activity android:name=".view.ui.activities.SplashscreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

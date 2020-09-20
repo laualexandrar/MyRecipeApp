@@ -1,13 +1,14 @@
-package com.lroap.myrecipeapp.view.ui.fragments
+package com.lroap.myrecipeapp.view.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.lroap.myrecipeapp.R
 
-class AddRecipesInfoFragment : AppCompatActivity() {
+class LunchRecipesActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.fragment_add_recipes_info)
+        setContentView(R.layout.activity_lunch_recipes)
     }
+
 }

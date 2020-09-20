@@ -1,13 +1,13 @@
-package com.lroap.myrecipeapp.view.ui.fragments
+package com.lroap.myrecipeapp.view.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.lroap.myrecipeapp.R
 
-class DinnerRecipesFragment : AppCompatActivity() {
+class LunchDetailDialogActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.fragment_dinner_recipes)
+        setContentView(R.layout.activity_lunch_detail_dialog)
     }
 }
