@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.lroap.myrecipeapp.R
-import com.lroap.myrecipeapp.view.ui.fragments.AddRecipesInfoFragment
 import kotlinx.android.synthetic.main.activity_add_recipe_menu.*
 
 open class AddRecipeMenu : AppCompatActivity() {
@@ -17,7 +16,7 @@ open class AddRecipeMenu : AppCompatActivity() {
 
 
         addNewRecipeBtn.setOnClickListener {
-            val addNewRecipeIntent = Intent(this, AddRecipesInfoFragment::class.java)
+            val addNewRecipeIntent = Intent(this, addRecipesInfo::class.java)
             startActivity(addNewRecipeIntent)
         }
 
